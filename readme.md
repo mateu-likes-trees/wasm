@@ -82,4 +82,11 @@ TBD
 - [wasm2c - wasm files to C](https://github.com/WebAssembly/wabt/tree/main/wasm2c)
 
 ## Use-cases
+- https://webassembly.org/getting-started/developers-guide/
 - https://webassembly.org/docs/use-cases/
+
+## Reading list
+- https://news.ycombinator.com/item?id=38927960
+ - https://github.com/WebAssembly/component-model
+ - https://www.fermyon.com/blog/webassembly-component-model
+ - https://thenewstack.io/can-webassembly-get-its-act-together-for-a-component-model/
