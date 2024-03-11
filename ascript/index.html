@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>WASM - AssemblyScript</title>
+    <script type="module">
+        import { add, say } from "./build/debug.js";
+        const outputContainer = document.getElementById( "output" );
+        outputContainer.innerHTML = say();
+    </script>
+    <style>
+        * {
+            font-family: monospace;
+        }
+
+        #output {
+            background-color: black;
+            color: white;
+            padding: 24px;
+            font-size: 16px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WASM - AssemblyScript</h1>
+    <h2>Script output</h2>
+    <div id="output"></div>
+</body>
+
+</html>
