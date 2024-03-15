@@ -65,7 +65,16 @@ declare function consoleLog(s: string): void
 
 > Note that this is just an example and console.log is already provided by the standard library when called from an AssemblyScript file. Other global functions not already provided by the standard library may require an import as of this example, though.
 
-## Targets
+### Go
+
+Disadvantages:
+- minimal example is 2 MB
+- either WASI that doesn't run in the browser
+- or the browser version that comes with lots of boilerplate
+
+Worth further investigation: https://tinygo.org/
+
+## Runtimes
 
 ### Web (browser)
 
