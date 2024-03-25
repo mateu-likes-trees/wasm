@@ -74,6 +74,14 @@ Disadvantages:
 
 Worth further investigation: https://tinygo.org/
 
+### Rust
+
+https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_Wasm
+
+### ???
+
+...
+
 ## Runtimes
 
 ### Web (browser)
@@ -99,3 +107,7 @@ TBD
  - https://github.com/WebAssembly/component-model
  - https://www.fermyon.com/blog/webassembly-component-model
  - https://thenewstack.io/can-webassembly-get-its-act-together-for-a-component-model/
+
+
+- use same .wasm file for FE and BE for making HTML (components/DS)
+- build api with pluggable part with components
