@@ -78,9 +78,26 @@ Worth further investigation: https://tinygo.org/
 
 https://developer.mozilla.org/en-US/docs/WebAssembly/Rust_to_Wasm
 
-### ???
+### C++
 
-...
+https://developer.mozilla.org/en-US/docs/WebAssembly/C_to_Wasm
+
+https://emscripten.org/docs/porting/connecting_cpp_and_javascript/Interacting-with-code.html
+https://emscripten.org/docs/tools_reference/settings_reference.html
+https://emscripten.org/docs/api_reference/module.html
+https://emscripten.org/docs/api_reference/preamble.js.html
+https://stackoverflow.com/questions/46332158/assertion-failed-you-need-to-wait-for-the-runtime-to-be-ready-error-when-call
+https://stackoverflow.com/questions/58045191/compiling-c-code-to-standalone-wasm-with-emscripten-results-in-wasm-requiring
+
+https://stackoverflow.com/questions/41353389/how-can-i-return-a-javascript-string-from-a-webassembly-function
+https://stackoverflow.com/questions/21816960/how-to-pass-strings-between-c-and-javascript-via-emscripten
+https://stackoverflow.com/questions/70275690/pass-string-from-c-to-js-using-emscripten
+https://www.codeproject.com/Articles/10595/Allocate-your-dynamic-strings-on-the-stack
+https://www.reddit.com/r/AskProgramming/comments/107dpaf/c_question_cant_understand_this_error_address_of/
+
+https://stackoverflow.com/questions/70226666/is-there-an-easy-way-to-ask-emscripten-emit-wasm-not-mangling-its-names
+
+https://llama-cpp-wasm.tangledgroup.com/example-single-thread.html
 
 ## Runtimes
 

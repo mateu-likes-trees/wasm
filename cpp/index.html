@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>WASM - C++</title>
+  <script type="module" defer>
+    const OUTPUT_CONTAINER = document.getElementById( "output" );
+
+    window.log = function log ( message ) {
+      OUTPUT_CONTAINER.innerHTML += `${message}\n`;
+    }
+  </script>
+  <script type="module" src="main.js" async></script>
+  <style>
+    * {
+      font-family: monospace;
+    }
+
+    #output {
+      background-color: black;
+      color: white;
+      padding: 24px;
+      font-size: 16px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>WASM - C++</h1>
+  <h2>Script output</h2>
+  <div id="output"></div>
+</body>
+
+</html>
